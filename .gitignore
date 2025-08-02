@@ -1,0 +1,97 @@
+# Kubernetes Practice Project .gitignore
+
+# Build outputs
+target/
+build/
+*.jar
+*.war
+*.ear
+
+# IDE files
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Node.js (if any)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Docker
+.dockerignore
+
+# Kubernetes
+*.kubeconfig
+
+# Secrets and sensitive data (commented out for learning purposes)
+# *-secret.yaml
+# *-secret.yml
+# secrets/
+# .env.secret
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Cache directories
+.cache/
+.mvn/
+.gradle/
+
+# Test coverage
+coverage/
+.coverage
+*.lcov
+
+# Package files
+*.tar.gz
+*.zip
+*.rar
+
+# Documentation build
+docs/_build/
+site/
+
+# Local configuration
+config/local/
+settings/local/ 
