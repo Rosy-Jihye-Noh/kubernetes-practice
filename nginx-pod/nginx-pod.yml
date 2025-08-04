@@ -7,4 +7,4 @@ spec:
     - name: nginx-container
       image: nginx:latest
       ports:
-        - containerPort: 80 # 80은 실제 이용되는 포트 아님
+        - containerPort: 80
